@@ -123,8 +123,8 @@ importers:
   examples/deserialize-transaction:
     dependencies:
       '@solana-program/memo':
-        specifier: ^0.4.0
-        version: 0.4.0(@solana/web3.js@packages+library)
+        specifier: ^0.4.1
+        version: 0.4.1(@solana/web3.js@packages+library)
       '@solana-program/system':
         specifier: ^0.4.0
         version: 0.4.0(@solana/web3.js@packages+library)
@@ -3804,8 +3804,8 @@ packages:
   '@sinonjs/text-encoding@0.7.2':
     resolution: {integrity: sha512-sXXKG+uL9IrKqViTtao2Ws6dy0znu9sOaP1di/jKGW1M6VssO8vlpXCQcpZ+jisQ1tTFAC5Jo/EOzFbggBagFQ==}
 
-  '@solana-program/memo@0.4.0':
-    resolution: {integrity: sha512-jtad4YNC7PgIZJo6mVbdsOqZB69ND8QGjDVJWsYT6WnBFpOHVhQf/WBDkLkcbZqjxYAJV8RjVVj52AwR26G5Aw==}
+  '@solana-program/memo@0.4.1':
+    resolution: {integrity: sha512-s1OrfefJrTpsxHChJ1Wq2Eha7FJ5PgF8vYf47EPHSiH1p8IvgBS6hL+9jqoOQtV9YsBkBxm8+thQ5iStRaf4cA==}
     peerDependencies:
       '@solana/web3.js': 2.0.0-preview.4
 
@@ -12722,7 +12722,7 @@ snapshots:
 
   '@sinonjs/text-encoding@0.7.2': {}
 
-  '@solana-program/memo@0.4.0(@solana/web3.js@packages+library)':
+  '@solana-program/memo@0.4.1(@solana/web3.js@packages+library)':
     dependencies:
       '@solana/web3.js': link:packages/library
 
